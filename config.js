@@ -4,7 +4,7 @@ import { watchFile, unwatchFile, readFileSync } from 'fs'
 import moment from "moment-timezone"
 
 async function loadConfig() {
-global.owner = ['6285640575421', 'Ndaaa', true]
+global.owner = ['6285640575421', 'Ndaaa', true],['6285640575421'], ['6285640575421'], ['6285640575421'],['6285640575421'],["6285640575421"],['6285640575421']
  // ['6283820073017', '436506665652696', '6285240750713']
   // [number, dia creator/owner?, dia developer?]
 // Put your number here
