@@ -19,8 +19,8 @@ handler.all = async function (m) {
 
         // Ini untuk command creator/owner
         global.kontak2 = [
-            [owner[0], await this.getName(owner[0] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴘᴇʀ ʙᴏᴛ', 'no@gmail.com', true],
-            [owner[1], await this.getName(owner[1] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴘᴇʀ ʙᴏᴛ', 'rlxfly.uwu@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
+            [owner[0], await this.getName(owner[0] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴘᴇʀ ʙᴏᴛ', 'bkep@gmail.com', true],
+            [owner[1], await this.getName(owner[1] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴘᴇʀ ʙᴏᴛ', 'bokep@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
         ]
 
         // ucapan ini mah
@@ -41,17 +41,17 @@ handler.all = async function (m) {
                 isForwarded: true, // ini biar ada tulisannya diteruskan berkali-kali, jika ingin di hilangkan ganti true menjadi false
                 externalAdReply: { // Bagian ini sesuka kalian berkreasi :'v
                     showAdAttribution: false,
-                    title: "【 ＭＡＲＩＮ　ＫＩＴＡＧＡＷＡ 】",
+                    title: "NdaaBotz-Md",
                     body: '\t' + me,
                     mediaUrl: ' ',
                     description: '',
                     previewType: "PHOTO",
                     thumbnail: await(await fetch(marin)).buffer(),
-                    sourceUrl: "https://chat.whatsapp.com/JFzipOMAz155jOldBdqUZy",
+                    sourceUrl: "https://chat.whatsapp.com",
                 },
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363272269077450@newsletter',
-                    newsletterName: '🔴 GABUNG CHANNEL KAMI',
+                    newsletterName: '🔴 GABUNG KOMUNITAS KAMI',
                     serverMessageId: 1945
                 }
             }
