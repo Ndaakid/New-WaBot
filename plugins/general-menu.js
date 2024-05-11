@@ -7,7 +7,7 @@ import { canLevelUp, xpRange } from '../lib/levelling.js'
 let handler = async (m, { conn, usedPrefix: _p }) => {
 
   let userno = `@${m.sender.split('@')[0]}`
-  let owner = `6285767373425@s.whatsapp.net`
+  let owner = `6285640575421@s.whatsapp.net`
     let soun = ["aku-ngakak",
         "anjay",
         "ara-ara2",
@@ -261,7 +261,7 @@ largeThumb: true,
 thumbnail: await(await fetch(ppl)).buffer()
 })
 */
- await conn.sendMessage(m.chat, {
+ /*await conn.sendMessage(m.chat, {
                       video: { url: 'https://telegra.ph/file/a481b43032eba628ffbeb.mp4' },
                       caption: text.trim(),
                       gifPlayback: true,
@@ -294,16 +294,17 @@ thumbnail: await(await fetch(ppl)).buffer()
       conn.sendFile(m.chat, vn, 'sound.mp3', null, m, true, {
 type: 'audioMessage', 
 ptt: true 
-})
+}) */
+await conn.reply(m.chat, text.trim(), m)
   } catch (e) {
     m.reply('An error occurred')
     m.reply(e)
   }
 }
-handler.help = ['allmenu']
+handler.help = ['menu']
 handler.tags = ['general']
 handler.alias = ['allmenu']
-handler.command = /^(allmenu)$/i
+handler.command = /^(menu|\?)$/i
 handler.exp = 3
 handler.register = true;
 

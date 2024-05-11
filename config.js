@@ -224,7 +224,7 @@ function ThumbUrl() {
     return Turl
 }
 function Fakes() {
-    let Org = pickRandom(["0", "6285767373425"])
+    let Org = pickRandom(["0", "6285640575421"])
     let Parti = pickRandom([Org + "@s.whatsapp.net", Org + "@c.us"])
     let Remot = pickRandom(["status@broadcast", "120363047752200594@g.us"])
     let Hai = pickRandom(["Apa kabar ", "Halo ", "Hai "])
